@@ -1,0 +1,62 @@
+*{
+
+}
+
+body{
+    background: linear-gradient(90deg, rgb(2,1,17)0%,rgb(0,0,0)35%,rgb(0,0,0)100%);
+    overflow: hidden;
+}
+
+.imagen{
+    background-image: url(imagens/pexels-pixabay-159400.png);
+    background: linear-gradient(90deg, rgb(2,1,17)0%,rgb(0,0,0)35%,rgb(0,0,0)100%);
+    background-size: cover;
+   
+}
+
+.imgf{
+    top: 50%;
+    left: 50%;
+}
+.id{
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center;
+}
+.logocontainer{
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    animation: fadeIn 1s 3s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
